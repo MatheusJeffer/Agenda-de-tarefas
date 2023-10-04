@@ -1,0 +1,14 @@
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\bin\Release\net7.0\Agenda de tarefas.exe
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\bin\Release\net7.0\Agenda de tarefas.deps.json
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\bin\Release\net7.0\Agenda de tarefas.runtimeconfig.json
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\bin\Release\net7.0\Agenda de tarefas.dll
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\bin\Release\net7.0\Agenda de tarefas.pdb
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.AssemblyInfoInputs.cache
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.AssemblyInfo.cs
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.csproj.CoreCompileInputs.cache
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.dll
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\refint\Agenda de tarefas.dll
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.pdb
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\Agenda de tarefas.genruntimeconfig.cache
+C:\Users\MATHEUSI\source\repos\Agendador de tarefas\obj\Release\net7.0\ref\Agenda de tarefas.dll
