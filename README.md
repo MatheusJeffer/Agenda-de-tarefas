@@ -1,3 +1,3 @@
-## Agendador de tarefas
+## Agenda de tarefas
 ###
-Um programas simples que "Agenda tarefas", permetindo o usuário adicionar, concluir, e excluir tarefas.
+Um programa CRUD simples que "Agenda tarefas", permetindo o usuário adicionar, concluir, e excluir tarefas.

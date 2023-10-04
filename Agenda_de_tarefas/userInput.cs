@@ -8,8 +8,6 @@ class userInput
 {
    public string userInputFunction(string text)
     {
-
-
         Console.WriteLine($"{text}");
         string tarefaInput;
         tarefaInput = Console.ReadLine();
@@ -28,8 +26,5 @@ class userInput
             }
         }
         return tarefaInput;
-
-
     }
-
 }
