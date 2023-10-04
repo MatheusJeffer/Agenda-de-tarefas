@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MATHEUSI\\source\\repos\\Agendador de tarefas\\Agendador de tarefas.csproj",
-      "projectName": "Agendador de tarefas",
-      "projectPath": "C:\\Users\\MATHEUSI\\source\\repos\\Agendador de tarefas\\Agendador de tarefas.csproj",
+      "projectUniqueName": "C:\\Users\\MATHEUSI\\source\\repos\\Agendador de tarefas\\Agenda de tarefas.csproj",
+      "projectName": "Agenda de tarefas",
+      "projectPath": "C:\\Users\\MATHEUSI\\source\\repos\\Agendador de tarefas\\Agenda de tarefas.csproj",
       "packagesPath": "C:\\Users\\MATHEUSI\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\MATHEUSI\\source\\repos\\Agendador de tarefas\\obj\\",
       "projectStyle": "PackageReference",
