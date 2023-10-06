@@ -4,27 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class userInput
+namespace Agenda_de_Tarefas
 {
-   public string userInputFunction(string text)
+    public static class UserInputclass
     {
-        Console.WriteLine($"{text}");
-        string tarefaInput;
-        tarefaInput = Console.ReadLine();
-
-        tarefaInput.TrimEnd().TrimStart();
-
-        //Esse loop vai ser executado quando o usuário digitar pouco ou muitos caracteres.
-        if (text != "Selecione uma opção:")
+        public static void Input(string text)
         {
-            while (tarefaInput.Length > 50 || tarefaInput.Length < 4)
-            {
-                Console.WriteLine("Error: Digite pelo menos 4 ou 20 caractes");
-                tarefaInput = Console.ReadLine();
-                Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
+            Console.WriteLine($"{text}");
+            string tarefaInput;
+            tarefaInput = Console.ReadLine();
 
+            tarefaInput.TrimEnd().TrimStart();
+
+            //Esse loop vai ser executado quando o usuário digitar pouco ou muitos caracteres.
+            if (text != "Selecione uma opção:")
+            {
+                while (tarefaInput.Length > 50 || tarefaInput.Length < 4)
+                {
+                    Console.WriteLine("Error: Digite pelo menos 4 ou 20 caractes");
+                    tarefaInput = Console.ReadLine();
+                    Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
+
+                }
             }
+            ListadeTarefas.TarefasnaoConcluidas.Add(tarefaInput);
+            Console.WriteLine("Tarefa adicionada!");
         }
-        return tarefaInput;
     }
 }
