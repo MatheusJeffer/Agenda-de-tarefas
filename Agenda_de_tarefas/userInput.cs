@@ -24,7 +24,6 @@ namespace Agenda_de_Tarefas
                     Console.WriteLine("Error: Digite pelo menos 4 ou 20 caractes");
                     tarefaInput = Console.ReadLine();
                     Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
-
                 }
             }
             ListadeTarefas.TarefasnaoConcluidas.Add(tarefaInput);
