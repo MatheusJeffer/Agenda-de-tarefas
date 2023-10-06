@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Agenda_de_Tarefas
 {
-    public static class TaskMark
+    public static class TaskToMark
     {
-        public static void mark()
+        public static void ToMark()
         {
             //O mesmo do que o "case 2", mas aqui a funcionalidade dessa função vai ser diferente.
             ShowTask.ShowTasks(ListadeTarefas.TarefasnaoConcluidas, "Tarefas não concluídas.");

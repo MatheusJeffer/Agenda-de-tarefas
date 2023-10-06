@@ -14,26 +14,14 @@ namespace Agenda_de_Tarefas
             //Duas listas vão ser criadas, uma guarda tarefas que não foram concluídas, e a outra guarda tarefas concluídas.
             bool loopBreak = true;
 
-
             Console.WriteLine("Agendador de tarefas.");
+
             while (loopBreak)
             {
-                Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
-                Console.Write(
-                    "O que você quer fazer?\n[1]Criar uma nova tarefa\n" +
-                    "[2]Ver todas as tarefas não concluidas\n" +
-                    "[3]Concluir uma tarefa.\n" +
-                    "[4]Ver todas as tarefas concluidas tarefa.\n" +
-                    "[5]Excluir uma tarefa.\n" +
-                    "[6]Editar Tarefa.\n" +
-                    "[0]Sair.\n"
-                    );
-                Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
-                //Entrada do usuário, onde ele vai escolher uma das opções mostradas no console.
-                Console.WriteLine("Selecione a opção:");
-                string userInput = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
-                //Esse switch recebe o que o usuário digitar.
+
+                string userInput = OptionSelection.options();
+                
+
                 try
                 {
 
@@ -50,7 +38,7 @@ namespace Agenda_de_Tarefas
                             break;
 
                         case "3":
-                            TaskMark.mark();
+                            TaskToMark.ToMark();
                             break;
 
                         case "4":
@@ -85,7 +73,11 @@ namespace Agenda_de_Tarefas
                 {
                     Console.WriteLine("ERROR: ÍNDICE INEXISTENTE.");
                 }
+                catch (SystemException ex)
+                {
+                    Console.WriteLine($"ERROR:{ex}");
 
+                }
 
             }
         }
