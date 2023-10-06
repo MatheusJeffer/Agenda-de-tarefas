@@ -29,8 +29,6 @@ namespace Agenda_de_Tarefas
             Console.WriteLine("-=-=-=-=-==-=-=-=-==-=-=-=-=-=-==-=-=-=");
             //Esse switch recebe o que o usuário digitar.
             return userInput;
-
-
         }
     }
 }

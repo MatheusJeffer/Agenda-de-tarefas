@@ -20,9 +20,6 @@ namespace Agenda_de_Tarefas
             //Após isso, o item selecionado, ai ser exclúido da lista, baseado na enumerações.
             ListadeTarefas.TarefasnaoConcluidas.RemoveAt(tarefasconcluidasinput);
             Console.WriteLine("Tarefa marcada como concluída com sucesso!");
-
-
         }
-
     }
 }

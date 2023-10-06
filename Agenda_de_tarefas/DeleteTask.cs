@@ -18,9 +18,6 @@ namespace Agenda_de_Tarefas
             //Baseado no index, o item selecionado irá ser apagado.
             ListadeTarefas.TarefasnaoConcluidas.RemoveAt(deleteTarefa);
             Console.WriteLine("Tarefa excluída!");
-
-
         } 
-
     }
 }

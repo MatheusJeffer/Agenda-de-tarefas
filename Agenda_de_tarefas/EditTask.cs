@@ -21,7 +21,6 @@ namespace Agenda_de_Tarefas
             //Baseado no indice da lista, a tarefa vai ser substituída.
             ListadeTarefas.TarefasnaoConcluidas[chooseinput] = taskedit;
             Console.WriteLine("Tarefa editada!");
-
         }
     }
 }
